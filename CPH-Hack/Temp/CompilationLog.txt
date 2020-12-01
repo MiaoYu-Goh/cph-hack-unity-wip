@@ -1,0 +1,4 @@
+# Starting compiling Assembly-CSharp.dll
+C:\Repos\Unity_1\build\WindowsEditor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-a9cb0ba35d09aa342b2e63fedd28653a
+# Starting IL post processing on Assembly-CSharp.dll
+C:/Repos/Unity_1/build/WindowsEditor/Data/MonoBleedingEdge/bin/mono.exe C:/Repos/Unity_1/build/WindowsEditor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Repos/cph-hack-unity/CPH-Hack/Temp/UnityTempFile-e4c0d88b876193a409a423106fe0e020

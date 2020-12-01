@@ -1,0 +1,235 @@
+Using pre-set license
+Built from 'cph-hack/nativearray-ref-returns' branch; Version is '2020.2.0b8-dots.1 (6eeb0d6092fd) revision 7269133'; Using compiler version '192528614'; Build Type 'Debug'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 65209 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Repos\Unity_1\build\WindowsEditor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Repos/cph-hack-unity/CPH-Hack
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51535
+Successfully changed project path to: C:/Repos/cph-hack-unity/CPH-Hack
+C:/Repos/cph-hack-unity/CPH-Hack
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 172.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0b8-dots.1 (6eeb0d6092fd)
+[Subsystems] Discovering subsystems at path C:/Repos/Unity_1/build/WindowsEditor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Repos/cph-hack-unity/CPH-Hack/Assets
+GfxDevice: creating device client; threaded=0
+Successfully created d3d11 device with debug flag.
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f07)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   26.21.14.3200
+Initialize mono
+Mono path[0] = 'C:/Repos/Unity_1/build/WindowsEditor/Data/Managed'
+Mono path[1] = 'C:/Repos/Unity_1/build/WindowsEditor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Repos/Unity_1/build/WindowsEditor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Registered in 0.001600 seconds.
+Refreshing native plugins compatible for Editor in 169.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008473 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Entities.Hybrid.CodeGen.AuthoringComponentPostProcessor:CreateBufferElementDataAuthoringType due to: Could not load file or assembly 'Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e' or one of its dependencies. assembly:Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of Unity.Build.Classic.ClassicBuildProfile:get_Platform due to: Could not load file or assembly 'bee, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:bee, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of Unity.Build.Classic.Private.BuildPipelineSelector:IsBuildPipelineValid due to: Could not load file or assembly 'bee, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:bee, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of Unity.Entities.Editor.Decompiler:StartDecompilationProcesses due to: Could not load file or assembly 'Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e' or one of its dependencies. assembly:Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of Unity.Entities.CodeGen.BlobAssetSafetyVerifier:PostProcessImpl due to: Could not load file or assembly 'Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e' or one of its dependencies. assembly:Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of Unity.Properties.TypeResolver:For due to: Could not load file or assembly 'Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e' or one of its dependencies. assembly:Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Entities.Hybrid.CodeGen.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Build.Classic.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Build.Classic.Private.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Entities.Editor.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Entities.CodeGen.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Properties.CodeGen.dll, this assembly can cause crashes in the runtime
+
+Refreshing native plugins compatible for Editor in 170.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.FileNotFoundException: Could not load file or assembly 'Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=null'
+  at Unity.Collections.NativeHashMap`2[TKey,TValue]..ctor (System.Int32 capacity, Unity.Collections.Allocator allocator, System.Int32 disposeSentinelStackDepth) [0x00022] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.collections@0.14.0-preview.16\Unity.Collections\NativeHashMap.cs:127 
+  at Unity.Collections.NativeHashMap`2[TKey,TValue]..ctor (System.Int32 capacity, Unity.Collections.Allocator allocator) [0x00000] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.collections@0.14.0-preview.16\Unity.Collections\NativeHashMap.cs:116 
+  at Unity.Entities.TypeManager.Initialize () [0x000a4] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Entities\Types\TypeManager.cs:444 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00001] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:28 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00001] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/Repos/Unity_1/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at C:/Repos/Unity_1/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: C:/Repos/Unity_1/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+FileNotFoundException: Could not load file or assembly 'Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at Unity.Collections.NativeList`1[T]..ctor (System.Int32 initialCapacity, Unity.Collections.Allocator allocator, System.Int32 disposeSentinelStackDepth) [0x0003b] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.collections@0.14.0-preview.16\Unity.Collections\NativeList.cs:124 
+  at Unity.Collections.NativeList`1[T]..ctor (Unity.Collections.Allocator allocator) [0x00000] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.collections@0.14.0-preview.16\Unity.Collections\NativeList.cs:98 
+  at Unity.Scenes.Editor.EditorSceneLiveLinkToPlayerSendSystem.OnEnable () [0x00001] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Scenes.Editor\EditorSceneLiveLinkToPlayerSendSystem.cs:189 
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType(Type, Boolean)
+UnityEngine.ScriptableObject:CreateInstance(Type) (at C:\Repos\Unity_1\Runtime\Export\Scripting\ScriptableObject.bindings.cs:34)
+UnityEngine.ScriptableObject:CreateInstance() (at C:\Repos\Unity_1\Runtime\Export\Scripting\ScriptableObject.bindings.cs:40)
+UnityEditor.ScriptableSingleton`1:CreateAndLoad() (at C:\Repos\Unity_1\Editor\Mono\ScriptableSingleton.cs:108)
+UnityEditor.ScriptableSingleton`1:get_instance() (at C:\Repos\Unity_1\Editor\Mono\ScriptableSingleton.cs:72)
+Unity.Scenes.Editor.LiveLinkEditorEventSystem:InitializeLiveLinkSystems() (at Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Scenes.Editor\LiveLink\LiveLinkEditorEventSystem.cs:10)
+
+(Filename: Library/PackageCache/com.unity.collections@0.14.0-preview.16/Unity.Collections/NativeList.cs Line: 124)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.253 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2836 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3269.
+Total: 5.726900 ms (FindLiveObjects: 1.449800 ms CreateObjectMapping: 0.376000 ms MarkObjects: 3.641100 ms  DeleteObjects: 0.255600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/RoslynAnalyzers/Analyzer1.pdb
+  artifactKey: Guid(b29b91439c982974b836eb41b58384cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoslynAnalyzers/Analyzer1.pdb using Guid(b29b91439c982974b836eb41b58384cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4a5ab3c70f98e1fed01a26b4279a0b') in 0.043697 seconds
+  Import took 0.059721 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007993 seconds.
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+Begin MonoManager ReloadAssembly
+ObjectDisposedException: The UNKNOWN_OBJECT_TYPE has been deallocated, it is not allowed to access it
+  at (wrapper managed-to-native) Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckDeallocateAndThrow_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle&)
+  at Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckDeallocateAndThrow (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) <0x1b1a1572f40 + 0x00052> in <59258f9e746647b799ed2ee5e6a43795>:0 
+  at Unity.Collections.LowLevel.Unsafe.DisposeSentinel.Dispose (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle& safety, Unity.Collections.LowLevel.Unsafe.DisposeSentinel& sentinel) [0x00001] in C:\Repos\Unity_1\Runtime\Export\NativeArray\DisposeSentinel.cs:78 
+  at Unity.Collections.NativeList`1[T].Dispose () [0x00001] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.collections@0.14.0-preview.16\Unity.Collections\NativeList.cs:422 
+  at Unity.Scenes.Editor.EditorSceneLiveLinkToPlayerSendSystem.OnDisable () [0x00008] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Scenes.Editor\EditorSceneLiveLinkToPlayerSendSystem.cs:213 
+
+(Filename: Library/PackageCache/com.unity.collections@0.14.0-preview.16/Unity.Collections/NativeList.cs Line: 422)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Entities.TypeManager.Shutdown () [0x00032] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Entities\Types\TypeManager.cs:548 
+  at Unity.Entities.TypeManager+<>c.<Initialize>b__66_0 (System.Object _, System.EventArgs __) [0x0000a] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Entities\Types\TypeManager.cs:432 
+  at System.AppDomain.DoDomainUnload () [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+
+(Filename: Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/Types/TypeManager.cs Line: 548)
+
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+Error: Could not load signature of Unity.Entities.Hybrid.CodeGen.AuthoringComponentPostProcessor:CreateBufferElementDataAuthoringType due to: Could not load file or assembly 'Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e' or one of its dependencies. assembly:Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of Unity.Build.Classic.ClassicBuildProfile:get_Platform due to: Could not load file or assembly 'bee, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:bee, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of Unity.Build.Classic.Private.BuildPipelineSelector:IsBuildPipelineValid due to: Could not load file or assembly 'bee, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:bee, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of Unity.Entities.Editor.Decompiler:StartDecompilationProcesses due to: Could not load file or assembly 'Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e' or one of its dependencies. assembly:Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of Unity.Entities.CodeGen.BlobAssetSafetyVerifier:PostProcessImpl due to: Could not load file or assembly 'Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e' or one of its dependencies. assembly:Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of Unity.Properties.TypeResolver:For due to: Could not load file or assembly 'Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e' or one of its dependencies. assembly:Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Entities.Hybrid.CodeGen.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Build.Classic.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Build.Classic.Private.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Entities.Editor.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Entities.CodeGen.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Properties.CodeGen.dll, this assembly can cause crashes in the runtime
+
+Refreshing native plugins compatible for Editor in 1.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.FileNotFoundException: Could not load file or assembly 'Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=null'
+  at Unity.Collections.NativeHashMap`2[TKey,TValue]..ctor (System.Int32 capacity, Unity.Collections.Allocator allocator, System.Int32 disposeSentinelStackDepth) [0x00022] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.collections@0.14.0-preview.16\Unity.Collections\NativeHashMap.cs:127 
+  at Unity.Collections.NativeHashMap`2[TKey,TValue]..ctor (System.Int32 capacity, Unity.Collections.Allocator allocator) [0x00000] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.collections@0.14.0-preview.16\Unity.Collections\NativeHashMap.cs:116 
+  at Unity.Entities.TypeManager.Initialize () [0x000a4] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Entities\Types\TypeManager.cs:444 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00001] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:28 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00001] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/Repos/Unity_1/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at C:/Repos/Unity_1/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: C:/Repos/Unity_1/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+Temp/RoslynAnalysisRunner has been deleted.
+RoslynAnalysisRunner has terminated.
+FileNotFoundException: Could not load file or assembly 'Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at Unity.Collections.NativeList`1[T]..ctor (System.Int32 initialCapacity, Unity.Collections.Allocator allocator, System.Int32 disposeSentinelStackDepth) [0x0003b] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.collections@0.14.0-preview.16\Unity.Collections\NativeList.cs:124 
+  at Unity.Collections.NativeList`1[T]..ctor (Unity.Collections.Allocator allocator) [0x00000] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.collections@0.14.0-preview.16\Unity.Collections\NativeList.cs:98 
+  at Unity.Scenes.Editor.EditorSceneLiveLinkToPlayerSendSystem.OnEnable () [0x00001] in C:\Repos\cph-hack-unity\CPH-Hack\Library\PackageCache\com.unity.entities@0.16.0-preview.21\Unity.Scenes.Editor\EditorSceneLiveLinkToPlayerSendSystem.cs:189 
+
+(Filename: Library/PackageCache/com.unity.collections@0.14.0-preview.16/Unity.Collections/NativeList.cs Line: 124)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.550 seconds
+Platform modules already initialized, skipping
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+Refreshing native plugins compatible for Editor in 1.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2830 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.0 MB.
+System memory in use after: 121.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3273.
+Total: 4.875900 ms (FindLiveObjects: 1.232000 ms CreateObjectMapping: 0.325200 ms MarkObjects: 3.212100 ms  DeleteObjects: 0.103000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.805980 seconds.
+  path: Assets/RoslynAnalyzers/Analyzer1.dll
+  artifactKey: Guid(b75ff35900784a649b05cd2fddaa104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoslynAnalyzers/Analyzer1.dll using Guid(b75ff35900784a649b05cd2fddaa104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dd43b1881401b54c43c49e6d49a636') in 0.027319 seconds
+  Import took 0.043570 seconds .
+

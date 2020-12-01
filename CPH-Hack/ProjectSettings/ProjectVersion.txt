@@ -1,0 +1,2 @@
+m_EditorVersion: 2020.2.0b8-dots.1
+m_EditorVersionWithRevision: 2020.2.0b8-dots.1 (6eeb0d6092fd)
